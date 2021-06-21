@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:precoding_quiz/screens/home/home.dart';
+import 'package:precoding_quiz/screens/home/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -12,9 +12,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {
-      Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (context) => HomePage()));
+    Timer(Duration(seconds: 4), () {
+      Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => HomeScreen()));
     });
 
     WidgetsFlutterBinding.ensureInitialized();
@@ -26,11 +26,10 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/splash.png"),
+            image: AssetImage("assets/images/splash.png"),
             fit: BoxFit.cover,
           ),
         ),
-        child: null /* add child content here */,
       ),
     );
   }

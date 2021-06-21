@@ -1,6 +1,6 @@
 {
-    "name": "program_quiz",
-    "short_name": "program_quiz",
+    "name": "precoding_quiz",
+    "short_name": "precoding_quiz",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

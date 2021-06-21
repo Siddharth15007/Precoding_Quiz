@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:precoding_quiz/splash.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:precoding_quiz/constants.dart';
+import 'package:precoding_quiz/screens/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,11 +11,19 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Programming Quiz",
+      title: 'Precoding Quiz',
       theme: ThemeData(
-        primaryColor: Colors.blueAccent,
+        scaffoldBackgroundColor: Colors.white,
+        textTheme:
+            GoogleFonts.poppinsTextTheme().apply(displayColor: kTextColor),
+        appBarTheme: AppBarTheme(
+          color: Colors.transparent,
+          elevation: 0,
+          brightness: Brightness.light,
+        ),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: SplashScreen(),
     );
