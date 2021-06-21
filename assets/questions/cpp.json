@@ -1,0 +1,129 @@
+[
+    {
+        "1": "Which of the following is FALSE about references in C++",
+        "2": "Which of the following functions must use reference.",
+        "3": "Which of the following is true?",
+        "4": "A member function can always access the data in __________ , (in C++).",
+        "5": "Which of the following is not correct for virtual function in C++ ?",
+        "6": "Which of the following cannot be passed to a function in C++ ?",
+        "7": "Which of the followings is/are automatically added to every class, if we do not write our own.",
+        "8": "Which of the following is true?",
+        "9": "Which of the following is true about this pointer?",
+        "10": "What is the use of this pointer?",
+        "11": "How can we restrict dynamic allocation of objects of a class using new?",
+        "12": "Which of the following operators cannot be overloaded",
+        "13": "Inline functions are useful when",
+        "14": "How can we make a C++ class such that objects of it can only be created using new operator? If user tries to create an object directly, the program produces compiler error.",
+        "15": "The associativity of which of the following operators is Left to Right, in C++ ?"
+    },
+    {
+        "1": {
+            "a": "References cannot be NULL",
+            "b": "A reference must be initialized when declared",
+            "c": "Once a reference is created, it cannot be later made to reference another object; it cannot be reset.",
+            "d": "References cannot refer to constant value"
+        },
+        "2": {
+            "a": "Assignment operator function",
+            "b": "Copy Constructor",
+            "c": "Destructor",
+            "d": "Parameterized constructor"
+        },
+        "3": {
+            "a": "All objects of a class share all data members of class",
+            "b": "Objects of a class do not share non-static members. Every object has its own copy.",
+            "c": "Objects of a class do not share codes of non-static methods, they have their own copy",
+            "d": "None of the above"
+        },
+        "4": {
+            "a": "the class of which it is member",
+            "b": "the object of which it is a member",
+            "c": "the public part of its class",
+            "d": "the private part of its class"
+        },
+        "5": {
+            "a": "Must be declared in public section of class.",
+            "b": "Virtual function can be static.",
+            "c": "Virtual function should be accessed using pointers.",
+            "d": "Virtual function is defined in base class."
+        },
+        "6": {
+            "a": "Constant",
+            "b": "Structure",
+            "c": "Array",
+            "d": "Header file"
+        },
+        "7": {
+            "a": "Copy Constructor",
+            "b": "Assignment Operator",
+            "c": "A constructor without any parameter",
+            "d": "All of the above"
+        },
+        "8": {
+            "a": "Static methods cannot be overloaded.",
+            "b": "Static methods can only access static members (data and methods)",
+            "c": "Non-static data members can be accessed by static methods.",
+            "d": "Static data members can only be accessed by static methods."
+        },
+        "9": {
+            "a": "It is passed as a hidden argument to all function calls",
+            "b": "It is passed as a hidden argument to all static functions",
+            "c": "It is passed as a hidden argument to all non-static function calls",
+            "d": "None of the above"
+        },
+        "10": {
+            "a": "All of the above",
+            "b": "To return reference to the calling object",
+            "c": "Can be used for chained function calls on an object",
+            "d": "When local variable’s name is same as member’s name, we can access member using this pointer."
+        },
+        "11": {
+            "a": "By overloading new operator",
+            "b": "By making an empty private new operator",
+            "c": "By making an empty private new and new[] operators",
+            "d": "By overloading new operator and new[] operators"
+        },
+        "12": {
+            "a": ". (Member Access or Dot operator)",
+            "b": "?: (Ternary or Conditional Operator )",
+            "c": ":: (Scope Resolution Operator)",
+            "d": "All of the above"
+        },
+        "13": {
+            "a": "Function is small and we want to avoid function call overhead",
+            "b": "Function is large with many nested loops",
+            "c": "None of the above",
+            "d": "Function has many static variables"
+        },
+        "14": {
+            "a": "By making destructor private",
+            "b": "Not possible",
+            "c": "By making constructor private",
+            "d": "By making both constructor and destructor private"
+        },
+        "15": {
+            "a": "Unary Operator",
+            "b": "Logical not",
+            "c": "addressof",
+            "d": "Array element access"
+        }
+
+    },
+    {
+        "1": "References cannot refer to constant value",
+        "2": "Copy Constructor",
+        "3": "Objects of a class do not share non-static members. Every object has its own copy.",
+        "4": "the class of which it is member",
+        "5": "Virtual function can be static.",
+        "6": "Header file",
+        "7": "All of the above",
+        "8": "Static methods can only access static members (data and methods)",
+        "9": "It is passed as a hidden argument to all non-static function calls",
+        "10": "All of the above",
+        "11": "By making an empty private new and new[] operators",
+        "12":"All of the above",
+        "13": "Function is small and we want to avoid function call overhead",
+        "14":"By making destructor private",
+        "15":"Array element access"
+    }
+]

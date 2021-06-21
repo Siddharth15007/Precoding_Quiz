@@ -1,0 +1,129 @@
+[
+    {
+        "1": "What is the output of the following program :\nprint 'Hello World'[::-1]",
+        "2": "Given a function that does not return any value, what value is shown when executed at the shell?",
+        "3": "Which module in Python supports regular expressions?",
+        "4": "What is the output of the following program :\nprint 0.1 + 0.2 == 0.3",
+        "5": "Which of the following is not a complex number?",
+        "6": "Which of the following is correct about Python?",
+        "7": "To start Python from the command prompt, use the command ______",
+        "8": "________ is a simple but incomplete version of a function.",
+        "9": "Which of the following is true about this pointer?",
+        "10": "What is the output of the following segment :\nchr(ord('A'))",
+        "11": "What is called when a function is defined inside a class?",
+        "12": "Which of the following is the use of id() function in python?",
+        "13": "Which function overloads the >> operator?",
+        "14": "time.time() returns ________",
+        "15": "Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?"
+    },
+    {
+        "1": {
+            "a": "dlroW olleH",
+            "b": "Hello Worl",
+            "c": "d",
+            "d": "Error"
+        },
+        "2": {
+            "a": "int",
+            "b": "bool",
+            "c": "void",
+            "d": "None"
+        },
+        "3": {
+            "a": "re",
+            "b": "regex",
+            "c": "pyregex",
+            "d": "None of the above"
+        },
+        "4": {
+            "a": "True",
+            "b": "False",
+            "c": "Machine dependent",
+            "d": "Error"
+        },
+        "5": {
+            "a": "k = 2 + 3j",
+            "b": "k = complex(2, 3)",
+            "c": "k = 2 + 3l",
+            "d": "k = 2 + 3J"
+        },
+        "6": {
+            "a": "It supports automatic garbage collection.",
+            "b": "It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java",
+            "c": "Both of the above",
+            "d": "None of the above"
+        },
+        "7": {
+            "a": "execute python",
+            "b": "go python",
+            "c": "python",
+            "d": "run python"
+        },
+        "8": {
+            "a": "print s[0]",
+            "b": "print s.lower()",
+            "c": "s[1] = ‘r’",
+            "d": "print s.strip()"
+        },
+        "9": {
+            "a": "Stub",
+            "b": "Function",
+            "c": "A function developed using bottom-up approach",
+            "d": "A function developed using top-down approach"
+        },
+        "10": {
+            "a": "A",
+            "b": "B",
+            "c": "a",
+            "d": "Error"
+        },
+        "11": {
+            "a": "Module",
+            "b": "Class",
+            "c": "Another Function",
+            "d": "Method"
+        },
+        "12": {
+            "a": "Id returns the identity of the object",
+            "b": "Every object doesn’t have a unique id",
+            "c": "All of the mentioned",
+            "d": "None of the mentioned"
+        },
+        "13": {
+            "a": "more()",
+            "b": "gt()",
+            "c": "ge()",
+            "d": "None of the above"
+        },
+        "14": {
+            "a": "the current time in milliseconds",
+            "b": "the current time in milliseconds since midnight",
+            "c": "the current time in milliseconds since midnight, January 1, 1970",
+            "d": "the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)"
+        },
+        "15": {
+            "a": "[3, 4, 5, 20, 5, 25, 1, 3]",
+            "b": "[1, 3, 3, 4, 5, 5, 20, 25]",
+            "c": "[3, 5, 20, 5, 25, 1, 3]",
+            "d": "[1, 3, 4, 5, 20, 5, 25]"
+        }
+
+    },
+    {
+        "1": "dlroW olleH",
+        "2": "None",
+        "3": "re",
+        "4": "False",
+        "5": "k = 2 + 3l",
+        "6": "Both of the above",
+        "7": "python",
+        "8": "s[1] = ‘r’",
+        "9": "Stub",
+        "10": "A",
+        "11": "Method",
+        "12":"Id returns the identity of the object",
+        "13": "None of the above",
+        "14":"the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)",
+        "15":"[3, 5, 20, 5, 25, 1, 3]"
+    }
+]

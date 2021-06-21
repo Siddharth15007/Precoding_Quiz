@@ -1,0 +1,129 @@
+[
+    {
+        "1": "Choose the command to list only the file “error.txt”",
+        "2": "Per user configuration setting are found in the following file of user’s home directory.",
+        "3": "Command ‘sed’ is used for __",
+        "4": "Which command is used to get intermediate result in a pipeline of commands?",
+        "5": "Mount point for templorary removable devices is ___",
+        "6": "Core of Linux operating system is",
+        "7": "Which one provide command interpreter environment?",
+        "8": "Which directory contains configuration files in Linux?",
+        "9": "What is maximum filename size in Linux in bytes?",
+        "10": "True statement about chown command in Linux is",
+        "11": "Context switching in Linux is",
+        "12": "Maximum number of processes in Linux is",
+        "13": "Which command is used to keep a process running even after logout from shell?",
+        "14": "Linux operating system supports",
+        "15": "Which command is used to check Linux version?"
+    },
+    {
+        "1": {
+            "a": "ls *err*.txt",
+            "b": "ls e*.txt",
+            "c": "ls error.???",
+            "d": "ls error.txt"
+        },
+        "2": {
+            "a": "profile",
+            "b": ".profile",
+            "c": ".mbox",
+            "d": ".exrc"
+        },
+        "3": {
+            "a": "To perform arithmetic calculations",
+            "b": "Used as text filter",
+            "c": "To mount a device",
+            "d": "Is a text editor."
+        },
+        "4": {
+            "a": "tee",
+            "b": "tea",
+            "c": "get",
+            "d": "filter"
+        },
+        "5": {
+            "a": "/",
+            "b": "/mnt",
+            "c": "/dev",
+            "d": "/tmp"
+        },
+        "6": {
+            "a": "Kernel",
+            "b": "Shell",
+            "c": "Terminal",
+            "d": "Command"
+        },
+        "7": {
+            "a": "Kernel",
+            "b": "Shell",
+            "c": "CPU",
+            "d": "Hardware"
+        },
+        "8": {
+            "a": "/etc/",
+            "b": "/bin/",
+            "c": "/dev/",
+            "d": "/root/"
+        },
+        "9": {
+            "a": "32",
+            "b": "64",
+            "c": "128",
+            "d": "255"
+        },
+        "10": {
+            "a": "Creates a thread",
+            "b": "Creates a child process",
+            "c": "Changes the mode of operation to kernel mode",
+            "d": "Changes the users and/or group ownership of each given file"
+        },
+        "11": {
+            "a": "Kernel switches from executing one process to another",
+            "b": "Process switches from kernel mode to user mode",
+            "c": "Process switches from user mode to kernel mode",
+            "d": "None of the other option listed for this question"
+        },
+        "12": {
+            "a": "32768",
+            "b": "1024",
+            "c": "2048",
+            "d": "16384"
+        },
+        "13": {
+            "a": "nohup",
+            "b": "&",
+            "c": "bg",
+            "d": "cron"
+        },
+        "14": {
+            "a": "Multi User",
+            "b": "Multi Process",
+            "c": "Multi-Tasking",
+            "d": "All of the above"
+        },
+        "15": {
+            "a": "uname -a",
+            "b": "uname -n",
+            "c": "uname -s",
+            "d": "kernel"
+        }
+
+    },
+    {
+        "1": "ls error.txt",
+        "2": ".profile",
+        "3": "Is a text editor.",
+        "4": "tee",
+        "5": "/mnt",
+        "6": "Kernel",
+        "7": "Shell",
+        "8": "/etc/",
+        "9": "255",
+        "10": "Changes the users and/or group ownership of each given file",
+        "11": "Process switches from user mode to kernel mode",
+        "12":"32768",
+        "13": "nohup",
+        "14":"All of the above",
+        "15":"uname -a"
+    }
+]

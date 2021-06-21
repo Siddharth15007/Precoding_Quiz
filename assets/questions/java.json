@@ -1,0 +1,129 @@
+[
+    {
+        "1": "Which of the following is FALSE about arrays on Java",
+        "2": "Which of the following statements is/are TRUE regarding JAVA ?\n (a) Constants that cannot be changed are declared using the ‘static’ keyword.\n (b) A class can only inherit one class but can implement multiple interfaces.",
+        "3": "Which of the following is/are true about constructors in Java?\n1) Constructor name should be same as class name.\n2) If you don't define a constructor for a class, a default parameterless constructor is automatically created by the compiler. \n3) The default constructor calls super() and initializes all instance variables to default value like 0, null.\n4) If we want to parent class constructor, it must be called in first line of constructor.",
+        "4": "Which of these is a super class of all errors and exceptions in the Java language?",
+        "5": "The built-in base class in Java, which is used to handle all exceptions is",
+        "6": "Which of the following is/are advantages of packages?",
+        "7": "Which of the following statement(s) is/are TRUE regarding Java Servelets ? \n(a) A Java Servlet is a server-side component that runs on the web server and extends the capabilities of a server. \n(b) A Servlet can use the user interface classes like AWT or Swing.",
+        "8": "Which one of the following is correct?",
+        "9": "Java uses threads to enable the entire environment to be ______.",
+        "10": "In Java, when we implement an interface method, it must be declared as:",
+        "11": "What is the use of final keyword in Java?",
+        "12": "Which of the following is not an operator in Java?",
+        "13": "In Java, after executing the following code what are the values of x, y and z? int x,y=10; z=12; x=y++ + z++;",
+        "14": "Find the output of the following Java code line \nSystem.out.println(math.floor(-7.4))",
+        "15": "Type IV JDBC driver is a driver"
+    },
+    {
+        "1": {
+            "a": "A java array is always an object",
+            "b": "Length of array can be changed after creation of array",
+            "c": "Arrays in Java are always allocated on heap",
+            "d": "None of the above"
+        },
+        "2": {
+            "a": "Only (a) is TRUE.",
+            "b": "Only (b) is TRUE",
+            "c": "Both (a) and (b) are TRUE.",
+            "d": "Neither (a) nor (b) are TRUE"
+        },
+        "3": {
+            "a": "1",
+            "b": "1,2",
+            "c": "1, 2 and 3",
+            "d": "1, 2, 3 and 4"
+        },
+        "4": {
+            "a": "RunTimeExceptions",
+            "b": "Throwable",
+            "c": "Catchable",
+            "d": "None of the above"
+        },
+        "5": {
+            "a": "Raise",
+            "b": "Exception",
+            "c": "Error",
+            "d": "Throwable"
+        },
+        "6": {
+            "a": "Packages avoid name clashes",
+            "b": "Classes, even though they are visible outside their package, can have fields visible to packages only",
+            "c": "We can have hidden classes that are used by the packages, but not visible outside.",
+            "d": "All of the above"
+        },
+        "7": {
+            "a": "Only (a) is TRUE",
+            "b": "Only (b) is TRUE",
+            "c": "Both (a) and (b) are TRUE",
+            "d": "Neither (a) nor (b) is TRUE"
+        },
+        "8": {
+            "a": "Java applets can not be written in any programming language",
+            "b": "An applet is not a small program",
+            "c": "An applet can be run on its own",
+            "d": "Applets are embedded in another applications"
+        },
+        "9": {
+            "a": "Symmetric",
+            "b": "Asymmetric",
+            "c": "Asynchronous",
+            "d": "Synchronous"
+        },
+        "10": {
+            "a": "Private",
+            "b": "Protected",
+            "c": "Public",
+            "d": "Friend"
+        },
+        "11": {
+            "a": "When a class is made final, a sublcass of it can not be created.",
+            "b": "When a method is final, it can not be overridden.",
+            "c": "When a variable is final, it can be assigned value only once.",
+            "d": "All of the above"
+        },
+        "12": {
+            "a": "instanceof",
+            "b": "sizeof",
+            "c": "new",
+            "d": ">>>="
+        },
+        "13": {
+            "a": "x=22, y=10, z=12",
+            "b": "x=24, y=10, z=12",
+            "c": "x=24, y=11, z=13",
+            "d": "x=22, y=11, z=13"
+        },
+        "14": {
+            "a": "-7",
+            "b": "-8",
+            "c": "-7.4",
+            "d": "-7.0"
+        },
+        "15": {
+            "a": "which is written in C++",
+            "b": "which requires an intermediate layer",
+            "c": "which communicates through Java sockets",
+            "d": "which translates JDBC function calls into API not native to DBMS"
+        }
+
+    },
+    {
+        "1": "Length of array can be changed after creation of array",
+        "2": "Only (b) is TRUE",
+        "3": "1, 2, 3 and 4",
+        "4": "Throwable",
+        "5": "Throwable",
+        "6": "All of the above",
+        "7": "Only (a) is TRUE",
+        "8": "Applets are embedded in another applications",
+        "9": "Asynchronous",
+        "10": "Public",
+        "11": "All of the above",
+        "12":"sizeof",
+        "13": "x=22, y=11, z=13",
+        "14":"-8",
+        "15":"which communicates through Java sockets"
+    }
+]
