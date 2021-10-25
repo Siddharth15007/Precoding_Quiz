@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.scode.precoding_quiz">
    <application
-        android:label="precoding_quiz"
+        android:label="Pre-Coding Quiz"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

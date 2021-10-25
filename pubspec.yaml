@@ -1,7 +1,7 @@
 name: precoding_quiz
 description: Quiz game about Programming Subjects, like Python, Java, C++, JavaScript.
 
-publish_to: 'none' 
+publish_to: "none"
 version: 1.0.0+4
 
 environment:
@@ -10,24 +10,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
-  flutter_svg: ^0.22.0 
-  google_fonts: ^1.1.0 
-  http: ^0.12.2 
+
+  flutter_svg: ^0.22.0
+  google_fonts: ^1.1.0
+  http: ^0.12.2
   get: ^4.1.4
   cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 flutter:
-
   uses-material-design: true
   assets:
     - assets/images/
     - assets/spinner.gif
 
-  
   fonts:
     - family: Quando
       fonts:
@@ -38,4 +42,3 @@ flutter:
     - family: Satisfy
       fonts:
         - asset: assets/fonts/Satisfy.ttf
- 

@@ -39,16 +39,6 @@ class QuestionController extends GetxController
 
   List<Question> get questions => this._questions;
 
-  // List<Question> _questions = pythonData
-  //     .map((question) => Question(
-  //         id: question['id'],
-  //         question: question['question'],
-  //         options: question['options'],
-  //         answer: question['answer_index']))
-  //     .toList();
-
-  // List<Question> get questions => this._questions;
-
   bool _isAnswered = false;
   bool get isAnswered => this._isAnswered;
 
